@@ -3,3 +3,4 @@ src/gateway/hello/target/
 /root.log
 .DS_Store
 test/bdd/node_modules/
+test/bdd/reports/report.json

@@ -8,6 +8,7 @@ module.exports = function(grunt) {
                 // tags: '@current',
                 // format: 'pretty',
                 format: 'json',
+                output: 'report.json',
                 steps: 'step_definitions'
             }
         }
