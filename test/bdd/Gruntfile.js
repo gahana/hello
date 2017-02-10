@@ -3,17 +3,15 @@
 module.exports = function(grunt) {
     grunt.initConfig({
         cucumberjs: {
-            src: 'features/*',
+            src: 'features',
             options: {
                 // tags: '@current',
-                // format: 'pretty',
-                format: 'json',
-                output: 'report.json',
-                steps: 'step_definitions'
+                format: 'json'
+                // steps: 'features/step_definitions'
             }
         }
     });
 
     grunt.loadNpmTasks('grunt-cucumber');
-    grunt.registerTask('tests', ['cucumberjs']);
+    grunt.registerTask('default', ['cucumberjs']);
 }

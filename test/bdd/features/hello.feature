@@ -1,5 +1,6 @@
 Feature: A lonely developer can get a hello message from this API
 
+@current
 Scenario: Hello API call should send a good response
     When I GET /v1/hello
     Then response code should be 200
