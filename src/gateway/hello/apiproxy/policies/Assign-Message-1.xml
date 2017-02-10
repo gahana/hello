@@ -2,7 +2,7 @@
 <AssignMessage async="false" continueOnError="false" enabled="true" name="Assign-Message-1">
     <DisplayName>Assign Message-1</DisplayName>
     <Set>
-        <Payload contentType="text/xml">Hello API 2!</Payload>
+        <Payload contentType="text/xml">Hello API 3!</Payload>
     </Set>
     <IgnoreUnresolvedVariables>true</IgnoreUnresolvedVariables>
     <AssignTo createNew="false" transport="http" type="response"/>
