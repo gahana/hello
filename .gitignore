@@ -2,3 +2,4 @@ src/gateway/hello/target/
 /jmeter.log
 /root.log
 .DS_Store
+node_modules/
